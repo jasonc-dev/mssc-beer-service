@@ -1,0 +1,2 @@
+Beer, inventory, order services:
+VM options: -Dspring.profiles.active=local,local-discovery
