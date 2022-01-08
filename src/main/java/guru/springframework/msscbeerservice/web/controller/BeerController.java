@@ -32,7 +32,7 @@ public class BeerController {
             @RequestParam(value = "pageSize", required = false) Integer pageSize,
             @RequestParam(value = "beerName", required = false) String beerName,
             @RequestParam(value = "beerStyle", required = false) BeerStyleEnum beerStyle,
-            @RequestParam(value = "ShowInventoryOnHand", required = false) Boolean showInventoryOnHand) {
+            @RequestParam(value = "showInventoryOnHand", required = false) Boolean showInventoryOnHand) {
 
         if (showInventoryOnHand == null) {
             showInventoryOnHand = false;
